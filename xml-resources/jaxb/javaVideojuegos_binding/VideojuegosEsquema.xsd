@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">           
+	<xsd:element name="Videojuegos">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="Videojuego" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="id" type="xsd:string" />
+							<xsd:element name="Nombre" type="xsd:string" />
+							<xsd:element name="Empresa" type="xsd:string" />
+							<xsd:element name="PEGI" type="xsd:string" />
+							<xsd:element name="Genero" type="xsd:string" />
+							<xsd:element name="Plataforma" type="xsd:string" />
+							<xsd:element name="Precio" type="xsd:string" />
+						</xsd:sequence>
+						<xsd:attribute name="lanzado_en" type="xsd:string"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

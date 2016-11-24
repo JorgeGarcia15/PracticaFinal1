@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Videojuegos>
+    <Videojuego lanzado_en="2016">
+        <id>1</id>
+        <Nombre>Dark Souls III</Nombre>
+        <Empresa>From Software</Empresa>
+        <PEGI>18</PEGI>
+        <Genero>RPG</Genero>
+        <Plataforma>PC/PS4/XBOX-ONE</Plataforma>
+        <Precio>60.00€</Precio>
+    </Videojuego>
+    <Videojuego lanzado_en="2016">
+        <id>2</id>
+        <Nombre>DOOM</Nombre>
+        <Empresa>Id Software</Empresa>
+        <PEGI>18</PEGI>
+        <Genero>Accion</Genero>
+        <Plataforma>PC/PS4/XBOX-ONE</Plataforma>
+        <Precio>60.00€</Precio>
+    </Videojuego>
+    <Videojuego lanzado_en="2014">
+        <id>3</id>
+        <Nombre>Destiny</Nombre>
+        <Empresa>Bungie Studios</Empresa>
+        <PEGI>16</PEGI>
+        <Genero>Accion</Genero>
+        <Plataforma>PC/PS4/XBOX-ONE</Plataforma>
+        <Precio>34.99€</Precio>
+    </Videojuego>
+</Videojuegos>
